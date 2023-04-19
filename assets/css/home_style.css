@@ -1,0 +1,131 @@
+body{
+    background-image: url(https://raw.githubusercontent.com/Vipulhere/React-Task-5.2/main/src/bg.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#header img{
+    width: 170px;
+    margin: 20px 0px 0px 30px ;
+}
+
+#header{
+    width:97vw;
+    height:18vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Shadows Into Light', cursive;
+}
+
+#root-div{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+#left-div {
+    width: 45vw;
+    height:65vh;
+    box-shadow:1px 1px 7px  rgb(84, 77, 77);
+    margin-left: 26%;
+    background-color: rgb(240, 237, 237);
+}
+
+#large-message {
+    margin-top: 15vh;
+    font-size: 2.5rem;
+    font-family: sans-serif;
+    margin-left: 5rem;
+}
+
+#small-message {
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: sans-serif;
+    margin-left: 5rem;
+    color: gray;
+}
+
+#start-meeting a {
+    text-decoration: none;
+    color: white;
+}
+
+#new-meeting-root {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 35vw;
+    height: 10vh;
+    margin-top: 3rem;
+    margin-left: 5rem;
+}
+
+#enter-meeting-link {
+    border: 1px solid grey;
+    border-radius: .2rem;
+    font-size: 1.5rem;
+    color: gray;
+    height: 2rem;
+    padding: .5rem;
+    line-height: 2rem;
+}
+
+#enter-meeting-link input {
+    border: none;
+    height: 2rem;
+    font-size: 1rem;
+    background-color: rgb(240, 237, 237);
+}
+
+#join-button {
+    font-family: sans-serif;
+    color: #54595e;
+    font-size: 1.2rem;
+    height: 3rem;
+    width: 4rem;
+    border-radius: .2rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+#join-button:hover {
+    cursor: pointer;
+    background-color: hsla(220, 1%, 44%, 0.1);
+}
+
+#enter-meeting-link input:focus {
+    outline: none;
+}
+
+#start-meeting {
+    width: 150px;
+    height: 2.1rem;
+    padding-top: 1rem;
+    border-radius: .2rem;
+    color: white;
+    background-color: #54595e;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+#start-meeting:hover {
+    background-color: #9a9ea1;
+    transition: background-color .5s ease-in-out;
+}
+
+#right-div {
+    width: 40vw;
+}
+
+#right-div img {
+    width: 40vw;
+    margin-top: 20vh;
+    margin-left: -5rem;
+}
+
+
+
